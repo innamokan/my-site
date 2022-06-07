@@ -1,0 +1,98 @@
+/*Галерея*/
+.gallery h2 {
+border-left: 3px solid #83b85c;
+padding-left: 5px;
+font-weight: normal;
+width: 80%;
+margin: 40px auto 20px;
+}
+.gallery .slider .arrow_left {
+  background: url("../Maket/arrow_left.png") no-repeat center center;
+  width: 48px;
+  height: 48px;
+  left:20px;
+  cursor: pointer;
+}
+.gallery .slider .arrow_right {
+  background: url("../Maket/arrow_right.png") no-repeat center center;
+  width: 48px;
+  height: 48px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.gallery .slider {
+display: flex;
+justify-content: center;
+align-items: center;
+background: #d9d9d7;
+padding: 5px 0 3px;
+}
+footer {
+  margin-top: 20px;
+}
+footer nav {
+  background: #19a2ac;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 60%;
+  height: 100%;
+  padding: 0;
+}
+footer nav ul li {
+  list-style-type: none;
+  height: 100%;
+  flex-basis: 100%;
+}
+footer nav ul li a {
+color: #000;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+footer nav ul li a:hover {
+  background: #128991;
+}
+footer .titles {
+  background: #272727;
+  padding: 10px 0;
+}
+footer .titles .links {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+footer .titles .links div {
+  background: #3e3e3e;
+  padding: 10px 0;
+  flex-basis: 40%;
+  text-align: center;
+}
+.links a {
+  color: #dedede;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  margin: 5px 0;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+.links a:before {
+  content: "\00BB";
+  margin-right: 10px;
+  color: #8cc34c;
+}
+footer p {
+  text-align: center;
+}
